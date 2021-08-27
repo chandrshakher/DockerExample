@@ -3,7 +3,13 @@
   <groupId>Codecrux</groupId>
   <artifactId>Razorops</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+  <distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub OWNER Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
+   </repository>
+</distributionManagement>
    <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
